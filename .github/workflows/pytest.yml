@@ -23,3 +23,5 @@ jobs:
         run: python -c "import sys; print(sys.version)"
       - name: test
         run: printenv
+      - name: test2
+        run: echo $pythonLocation
