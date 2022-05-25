@@ -26,5 +26,5 @@ jobs:
       - name: test2
         run: 
           echo $pythonLocation; 
-          ls -la;
+          pwd;
           echo $HOME
