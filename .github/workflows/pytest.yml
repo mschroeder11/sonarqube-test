@@ -25,5 +25,5 @@ jobs:
         run: printenv
       - name: test2
         run: 
-          echo $pythonLocation
+          echo $pythonLocation; 
           ls -la
