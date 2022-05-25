@@ -27,3 +27,4 @@ jobs:
         run: 
           echo $pythonLocation; 
           ls -la
+          echo $HOME
