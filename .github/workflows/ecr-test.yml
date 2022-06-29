@@ -21,7 +21,7 @@ jobs:
         id: docker-scan
         uses: alexjurkiewicz/ecr-scan-image@v1.7.0
         with:
-          repository: 503218263455.dkr.ecr.us-east-1.amazonaws.com/ldap-test
+          repository: ldap-test
           tag: oidc-tests
           # fail_threshold: medium
           # ignore_list: |
