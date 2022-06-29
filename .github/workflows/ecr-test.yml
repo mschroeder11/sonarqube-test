@@ -22,7 +22,6 @@ jobs:
         uses: alexjurkiewicz/ecr-scan-image@v1.7.0
         with:
           repository: ldap-test/oidc-tests
-          tag: ${{ steps.docker-build.outputs.tag }}
           # fail_threshold: medium
           # ignore_list: |
           #   CVE-2014-7654321
