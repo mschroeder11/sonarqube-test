@@ -21,7 +21,8 @@ jobs:
         id: docker-scan
         uses: alexjurkiewicz/ecr-scan-image@v1.7.0
         with:
-          repository: ldap-test/oidc-tests
+          repository: ldap-test
+          tag: oidc-tests
           # fail_threshold: medium
           # ignore_list: |
           #   CVE-2014-7654321
