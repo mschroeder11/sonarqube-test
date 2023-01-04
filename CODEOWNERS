@@ -28,7 +28,7 @@
 # directory at the root of the repository and any of its
 # subdirectories.
 #/build/logs/ @doctocat
-/app/ @mschroeder11
+/app/ @mschroeder11 @octocat
 
 # The `docs/*` pattern will match files like
 # `docs/getting-started.md` but not further nested files like
